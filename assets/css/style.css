@@ -1,0 +1,175 @@
+@import url("reset.css");
+
+@font-face{
+	font-family: "Spectre";
+	src: url("Spectre 007.otf");
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #3F4857;
+}
+
+h2, h3 {
+	font-family: "Spectre", Impact, Charcoal, sans-serif;
+	font-size: 28px;
+}
+
+#fight-row {
+	width: 100%;
+	height: 67vh;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#player-arena {
+	width: 50%;
+	height: 60vh;
+	float: left;
+	position: relative;
+	background-color: #73132F;
+}
+
+#enemy-arena {
+	width: 50%;
+	height: 60vh;
+	float: left;
+	position: relative;
+	background-color: #DCF2F3;
+}
+
+.arena-attack, .arena-health {
+	width: 100%;
+	position: absolute;
+	height: 5vh;
+	text-align: center;
+}
+
+.arena-health {
+	bottom: 0;
+}
+
+.arena-attack{
+	
+	top: 0;
+}
+
+
+.arena-img img{
+	max-height: 50vh;
+	width: auto;
+	position: absolute;
+	left: 0;
+    right: 0;
+    top: 5vh;
+    margin: auto;
+}
+
+#message {
+	clear: both;
+	float: left;
+	width: 100%;
+	height: 7vh;
+	text-align: center;
+	border: 1px solid black;
+	background-color: black;
+	font-family: "Spectre", Impact, Charcoal, sans-serif;
+	color: white;
+	font-size: 28px;
+	line-height: 1.5;
+}
+
+#player-message  {
+	width:50%;
+	float: left;
+	height:7vh;
+}
+
+#enemy-message {
+	float: right;
+	width:50%;
+	height:7vh;
+}
+
+#waiting-row {
+	width: 100%;
+	height: 25vh;
+	display: block;
+	position: absolute;
+	top: 67vh;
+	align-content: center;
+	background-color: #3F4857;
+
+}
+
+
+
+.character {
+	display: block;
+	float: left;
+	width: 20%;
+	height: 20vh;
+	margin: 12px 10px 12px 10px;
+	margin-left: 25px;
+	text-align: center;
+	background-color: #54858E;
+	font-family: "Spectre", Impact, Charcoal, sans-serif;
+	border-radius: 25px;
+	box-shadow: 10px 5px 5px black;
+}
+
+.character img,.character .image  {
+	height: 15vh;
+	width: auto;
+}
+
+#button-row {
+	width: 100%;
+	height: 8vh;
+	display: block;
+	position: absolute;
+	top: 91vh;
+	background-color: black;
+}
+
+button {
+	width: 45%;
+	float: left;
+	height: 8vh;
+	font-size: 38px;
+	border-radius: 25px;
+	margin: 5px 5px 5px 5px;
+}
+
+
+
+#attack {
+	
+	background-color: #73132F;
+	border-color: #73132F;
+	font-family: "Spectre", Impact, Charcoal, sans-serif;
+	color: white;
+	float: left;
+	margin-left: 15px;
+}
+
+#attack:active {
+	background-color: #640D13;
+	border-color: #640D13;
+}
+
+#reset {
+	background-color: #DCF2F3;
+	border-color: #DCF2F3;
+	font-family: "Spectre", Impact, Charcoal, sans-serif;
+	color: black;
+	float: right;
+	margin-right: 15px;
+}
+
+#reset:active {
+	background-color: #DCF2F3;
+	border-color: #DCF2F3;
+}

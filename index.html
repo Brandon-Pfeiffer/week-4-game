@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bond RPG</title>
+	<link type = "text/css" rel = "stylesheet" href= "assets/css/style.css"/>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src = "assets/javascript/game.js"></script>
+</head>
+<body>
+	<div id = "fight-row">
+		<div class= "arena" id = "player-arena">
+			<div class= "arena-attack"></div>
+			<div class= "arena-img"></div>
+			<div class="arena-health"></div>
+		</div>
+		
+		<div class= "arena" id = "enemy-arena">
+			<div class= "arena-attack"></div>
+			<div class= "arena-img"></div>
+			<div class="arena-health"></div>
+		</div>
+		<div id = "message">
+	
+		</div>
+	</div>
+	
+	<div id = "waiting-row">
+		<div status= "alive" class = "character" id= "Swann">
+			<h4>Dr. Swann</h4>
+			<div class="image"><img src="assets/images/Swann.png"></div>
+			<p>HP: 150</p>
+		</div>
+		<div status= "alive" class = "character" id = "Bond">
+			<h4>Bond</h4>
+			<div class="image"><img src="assets/images/Bond.png"></div>
+			<p>HP: 135</p>
+		</div>
+		<div status= "alive" class = "character" id = "Q">
+			<h4>Q</h4>
+			<div class="image"><img src="assets/images/Q.png"></div>
+			<p>HP: 180</p>
+		</div>
+		<div status= "alive" class = "character" id = "Blofeld">
+			<h4>Blofeld</h4>
+			<div class="image"><img src="assets/images/Blofeld.png"></div>
+			<p>HP: 200</p>
+		</div>
+	</div>
+
+	<div id = "button-row">
+		<button id ="attack">ATTACK</button>
+		<button id ="reset">RESET</button>
+	</div>
+
+
+</body>
+</html>
